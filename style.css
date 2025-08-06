@@ -1,0 +1,32 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header {
+  background-color: #FFD700;
+  padding: 20px;
+}
+.panels {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.panel {
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 6px;
+  width: 200px;
+  text-align: center;
+  transition: background 0.3s;
+}
+.panel:hover {
+  background-color: #333;
+}
